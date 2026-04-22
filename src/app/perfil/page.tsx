@@ -61,10 +61,10 @@ export default function Perfil() {
           </div>
           <div className="bg-slate-100 px-6 py-3 rounded-full flex items-center gap-3">
              <div className="w-10 h-10 rounded-full bg-primary-600 flex items-center justify-center text-white font-bold text-xl uppercase shadow-sm">
-               {user.email ? user.email[0] : 'U'}
+               {user?.email ? user?.email[0] : 'U'}
              </div>
              <div>
-               <p className="text-sm font-bold text-slate-800">{user.email}</p>
+               <p className="text-sm font-bold text-slate-800">{user?.email}</p>
                <p className="text-xs text-primary-600 font-bold uppercase tracking-widest">Viajante CCC</p>
              </div>
           </div>
